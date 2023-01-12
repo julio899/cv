@@ -180,6 +180,12 @@ body > div.container > header > div.Basic-Info{
 /* For Mobile Phones Portrait or Landscape View */
 
 @media screen and (max-device-width: 850px){
+  
+    body > div.container{
+      display: flex;
+      flex-flow: column;
+    }
+
     body > div.container > header > div.photo{
       background-size: cover;
       background-position: center;
@@ -213,4 +219,29 @@ body > div.container > header > div.Basic-Info{
         font-size: 1em;
     }
 
+}
+
+/*PC*/
+@media screen
+  and (min-device-width: 1000px){
+    body > div.container{
+      display: flex;
+      flex-flow: column;
+    }
+
+    article
+    {
+      display: grid;
+      grid-template-columns: 2fr;
+      grid-template-rows: 1fr;
+      grid-template-areas:
+      "detalle lateral";
+      width: 100%;
+    }
+    article>div.Description{
+        grid-area: detalle;
+    }
+    article>div.lateralSkill{  
+      grid-area: lateral;
+    }
 }
