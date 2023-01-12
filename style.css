@@ -154,3 +154,46 @@ div.lateralSkill > div > section.destrezas > ul > li  label {
     font-size: 16px;
     color: #4c4f5b;
 }
+
+body > div.container > header{
+  width: 100vw;
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+}
+
+
+body > div.container > header > div.photo{
+  width: 20%;
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+
+body > div.container > header > div.Basic-Info{
+  width: 80%;
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+ 
+/* For Mobile Phones Portrait or Landscape View */
+@media screen
+  and (max-device-width: 640px){
+    body > div.container {
+      display: flex;
+      flex-flow: column;
+    } 
+
+    body > div.container > header > div.photo{
+        width: 50%;
+        background-size: cover;
+        background-position: center;
+    }
+    
+    body > div.container > header > div.Basic-Info{
+        padding: 0 1em;
+        width: 50%;
+    }
+
+}
