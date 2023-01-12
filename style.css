@@ -178,6 +178,22 @@ body > div.container > header > div.Basic-Info{
 }
  
 /* For Mobile Phones Portrait or Landscape View */
+
+@media screen and (max-device-width: 850px){
+    body > div.container > header > div.photo{
+      background-size: cover;
+      background-position: center;
+      padding: 0;
+    }
+    body > div.container > header > div.Basic-Info{
+      padding: 0 2em;
+      padding-bottom: 0px;
+      font-size: 0.95em;
+      padding-bottom: 0.7em;
+    }
+}
+
+
 @media screen
   and (max-device-width: 640px){
     body > div.container {
@@ -194,6 +210,7 @@ body > div.container > header > div.Basic-Info{
     body > div.container > header > div.Basic-Info{
         padding: 0 1em;
         width: 50%;
+        font-size: 1em;
     }
 
 }
