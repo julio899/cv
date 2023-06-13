@@ -132,11 +132,14 @@ div.Basic-Info h1{
   text-align: justify;
 }
 
+/*font-family: 'Montserrat';*/
 .internal-container section ul li label{
-  font-family: 'Montserrat';
   font-size: 1.2em;
   text-align: justify;
   font-size: 18px;
+  font-family: system-ui;
+  font-weight: 300;
+  color: #3c3c3c;
 }
 
 .contact-links ul li a,
@@ -199,6 +202,14 @@ body > div.container > header > div.Basic-Info{
     }
 }
 
+.internal-container section ul li,
+.internal-container section p{
+    font-family: system-ui;
+    font-size: 18px;
+    font-weight: 300;
+    text-align: justify;
+    color: #3c3c3c;
+}
 
 @media screen
   and (max-device-width: 640px){
