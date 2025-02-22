@@ -158,11 +158,12 @@ div.lateralSkill > div > section.destrezas > ul > li  label {
     color: #4c4f5b;
 }
 
-body > div.container > header{
-  width: 100vw;
-  display: flex;
-  flex-flow: row;
-  justify-content: center;
+body > div.container > header {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    gap: 0.5em;
+    background-color: #303745;
 }
 
 
