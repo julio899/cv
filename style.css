@@ -166,23 +166,22 @@ body > div.container > header{
 }
 
 
-body > div.container > header > div.photo{
-  width: 20%;
+body > div.container > header > div.photo {
+  min-width: 210px;
   border: none;
   margin: 0;
   padding: 0;
 }
 
-body > div.container > header > div.Basic-Info{
-  width: 80%;
+body > div.container > header > div.Basic-Info {
   border: none;
   margin: 0;
-  padding: 0;
+  padding: 0 2em;
 }
  
 /* For Mobile Phones Portrait or Landscape View */
 
-@media screen and (max-device-width: 850px){
+@media screen and (max-device-width: 850px) {
   
     body > div.container{
       display: flex;
